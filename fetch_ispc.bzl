@@ -43,7 +43,7 @@ def fetch_ispc():
         urls = [
             "https://github.com/ispc/ispc/releases/download/v1.19.0/ispc-v1.19.0-macOS.arm.tar.gz",
         ],
-        sha256 = "47b9fba87affde0842752dc6485bd544c13030872cac1190fb4354fe30580b8c",
+        sha256 = "d15d9e9ccfd57c1e2d30f68926893365f61258268ff3507ee26ea3647b6432db",
         strip_prefix = "ispc-v1.19.0-macOS.arm",
         build_file = "@rules_ispc//:ispc_osx_arm64.BUILD",
     )
